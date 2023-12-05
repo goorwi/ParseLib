@@ -1,12 +1,9 @@
-package org.example;
+package org.example.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
-import java.net.URL;
 
 public class HtmlLoader {
     String url;
@@ -22,7 +19,6 @@ public class HtmlLoader {
         }
         catch (Exception exception)
         {
-            //System.out.println("Страница не найдена");
             return null;
         }
     }

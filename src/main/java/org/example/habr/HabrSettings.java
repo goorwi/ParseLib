@@ -1,6 +1,7 @@
 package org.example.habr;
 
-import org.example.ParserSettings;
+import org.example.service.ParserSettings;
+
 
 public class HabrSettings extends ParserSettings {
     public HabrSettings(int start, int end)
